@@ -8,13 +8,14 @@ Welcome to my Google Cybersecurity Repository! This repository contains all the 
 
 ## 📚 Projects
 
-### 1. Network Security Basics
-- **Description:** This project focuses on the fundamentals of network security. It includes setting up firewalls, configuring intrusion detection systems, and monitoring network traffic for potential threats.
-- **Key Features:**
-  - Firewall configuration
-  - Intrusion Detection and Prevention
-  - Network traffic monitoring
-- **Repository:** [Link to the project repository](#)
+### 1. Internal Audit Basics
+Description: Conduct a comprehensive internal audit for Botium Toys, focusing on identifying and mitigating security risks.
+Key Features:
+Asset Review: Assess IT assets.
+Risk Assessment: Identify and evaluate risks.
+Compliance Evaluation: Ensure adherence to regulations.
+Checklist: Use a structured checklist to evaluate and recommend security measures.
+- **Repository:** [https://github.com/Cyb3rTr0n1c/Google-Cybersecurity-Certificate/tree/main/Internal%20security%20audit%20over%20fictional%20company](#)
 <!--  
 ### 2. Vulnerability Assessment and Management
 - **Description:** In this project, I performed a comprehensive vulnerability assessment using various tools and techniques. The project includes identifying vulnerabilities, assessing their impact, and recommending mitigation strategies.
