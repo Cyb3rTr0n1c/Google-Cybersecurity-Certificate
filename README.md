@@ -15,7 +15,7 @@ Asset Review: Assess IT assets.
 Risk Assessment: Identify and evaluate risks.
 Compliance Evaluation: Ensure adherence to regulations.
 Checklist: Use a structured checklist to evaluate and recommend security measures.
-- **Repository:** [https://github.com/Cyb3rTr0n1c/Google-Cybersecurity-Certificate/tree/main/Internal%20security%20audit%20over%20fictional%20company](#)
+- **Repository:** <a href="https://github.com/Cyb3rTr0n1c/Google-Cybersecurity-Certificate/tree/main/Internal%20security%20audit%20over%20fictional%20company">(#)
 <!--  
 ### 2. Vulnerability Assessment and Management
 - **Description:** In this project, I performed a comprehensive vulnerability assessment using various tools and techniques. The project includes identifying vulnerabilities, assessing their impact, and recommending mitigation strategies.
