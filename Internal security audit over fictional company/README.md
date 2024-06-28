@@ -40,6 +40,4 @@ Steps followed to conduct the security audit:
    - Optional: Provide recommendations for improvement in the relevant sections.
 
 4. **📸 Document Findings**
-   - Capture screenshots of key findings and include explanations for each.
-   - Example:
-     - **Ref 1: Network Diagram** - This diagram illustrates the network architecture of Botium Toys, highlighting critical assets and potential vulnerabilities.
+   - Regular audit report with compliance checklist
