@@ -10,9 +10,7 @@ Your task is to review the IT manager’s scope, goals, and risk assessment repo
 
 ### 📚 Skills Learned
 - 🛡️ Comprehensive understanding of cybersecurity frameworks and audit procedures.
-- 🔍 Proficiency in assessing and mitigating risks, threats, and vulnerabilities.
 - 📜 Ability to ensure compliance with relevant regulations and standards.
-- 🌐 Enhanced knowledge of network security and IT infrastructure management.
 - 🧠 Development of critical thinking and problem-solving skills in a cybersecurity context.
 
 ### 🛠️ Tools Used
