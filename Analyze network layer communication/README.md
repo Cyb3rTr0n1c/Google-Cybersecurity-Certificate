@@ -1,41 +1,52 @@
-# 🧸🔍 Internal Audit for Botium Toys
+🕵️‍♂️🔍 Network Traffic Analysis for YummyRecipesForMe
+🎯 Objective
+The goal of this project is to analyze DNS and ICMP traffic in transit to identify which network protocol was impacted during a cybersecurity incident affecting the website www.yummyrecipesforme.com. The analysis will help determine the cause of the issue and provide insights into potential network vulnerabilities.
 
-## 🎯 Objective
-The aim of this project is to conduct an internal security audit for Botium Toys, a small U.S. business specializing in toy development and sales. The audit will help ensure that security measures are in place to monitor for threats, risks, or vulnerabilities that can impact the company's business continuity and critical assets.
+📖 Scenario
+You are a cybersecurity analyst working for an IT services company. Several customers have reported that they are unable to access the client company website www.yummyrecipesforme.com, receiving the error “destination port unreachable.” Your task is to investigate the issue using a network protocol analyzer tool (tcpdump), identify the affected network protocol, and determine the root cause of the problem.
 
-## 📖 Scenario
-Botium Toys, a growing business with both a physical location and an expanding online presence, faces increasing demands on its IT infrastructure. The IT manager has initiated an internal audit to secure the company's systems and ensure compliance with regulations, particularly those related to online payments and operations in the E.U. The audit aims to provide an overview of the company's current security posture and identify potential risks, threats, and vulnerabilities.
+Your analysis will involve reviewing tcpdump logs to trace the flow of network traffic, identify any errors, and understand the implications of these errors on the network’s security.
 
-Your task is to review the IT manager’s scope, goals, and risk assessment report, and then perform an internal audit using the provided checklist.
+📚 Skills Learned
+🛡️ Identification and analysis of network protocols and traffic.
+🧠 Critical thinking and problem-solving in cybersecurity contexts.
+📋 Documentation and reporting of network security incidents.
+🛠️ Tools Used
+🖥️ Network protocol analyzer (e.g., tcpdump) for capturing and analyzing network traffic.
+🌐 Understanding of TCP/IP model layers and network protocols (e.g., DNS, ICMP).
+📝 Steps
+Steps followed to conduct the network traffic analysis:
 
-### 📚 Skills Learned
-- 🛡️ Comprehensive understanding of cybersecurity frameworks and audit procedures.
-- 📜 Ability to ensure compliance with relevant regulations and standards.
-- 🧠 Development of critical thinking and problem-solving skills in a cybersecurity context.
+🔍 Review Supporting Materials
 
-### 🛠️ Tools Used
-- 📐 Cybersecurity frameworks (e.g., NIST CSF) for establishing audit scope and goals.
-- ⚖️ Risk assessment tools to identify and evaluate potential risks and vulnerabilities.
-- 🗂️ Compliance checklists to ensure adherence to regulatory requirements and best practices.
+Access and review the following documents:
+tcpdump log of the incident
+TCP/IP model layers
+Network protocol descriptions
+📊 Analyze the Traffic
 
-## 📝 Steps
-Steps followed to conduct the security audit:
+Load the tcpdump log and examine the timestamps, source and destination IP addresses, and protocol details.
+Identify the sequence of network events leading up to the “destination port unreachable” error.
+📝 Document Findings
 
-1. **🔍 Review Supporting Materials**
-   - Access and review the following documents:
-     - Botium Toys: Scope, goals, and risk assessment report
-     - Control categories
-     - Controls and compliance checklist
+Record the details of the DNS request and the ICMP error message.
+Determine the cause of the error and which network protocol was affected.
+📋 Report the Incident
 
-2. **🛠️ Conduct the Audit**
-   - Evaluate the assets currently managed by the IT department.
-   - Focus on the bullet points under “Additional comments” in the Risk assessment section.
-   - Use the Control categories document to guide your review.
+Prepare a follow-up report detailing your analysis, findings, and recommendations for addressing the issue.
+🔍 Step-By-Step Instructions
+🔍 Review Supporting Materials
 
-3. **📋 Complete the Controls and Compliance Checklist**
-   - Open the Controls and compliance checklist template.
-   - Answer "yes" or "no" to each question in the checklist based on your review.
-   - Optional: Provide recommendations for improvement in the relevant sections.
+Open the tcpdump log file to analyze the captured network traffic data.
+📊 Analyze the Traffic
 
-4. **📸 Document Findings**
-   - Regular audit report with compliance checklist
+The first two lines of the log show the initial outgoing DNS request from your computer (192.51.100.15) to the DNS server (203.0.113.2.domain).
+The third and fourth lines show the ICMP error message indicating that the UDP packet was undeliverable to port 53 of the DNS server.
+📝 Document Findings
+
+The DNS request was sent in a UDP packet to the DNS server to retrieve the IP address for the domain www.yummyrecipesforme.com.
+The ICMP error message “udp port 53 unreachable” indicates that the DNS server was not available to process the request, leading to the failure to resolve the domain name.
+📋 Report the Incident
+
+The network protocol impacted during this incident was DNS, as the UDP packets sent to port 53 of the DNS server were not successfully delivered.
+The ICMP protocol provided the error message indicating the issue.
