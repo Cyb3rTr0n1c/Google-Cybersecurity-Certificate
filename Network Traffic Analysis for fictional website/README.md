@@ -29,7 +29,7 @@ Steps followed to conduct the network traffic analysis:
 2. **📊 Analyze the Traffic**
    - Load the tcpdump log and examine the timestamps, source and destination IP addresses, and protocol details.
    - Identify the sequence of network events leading up to the “destination port unreachable” error.
-   ![Image Log](tcpdumplogs.png)
+   ![Image Log](logs.png)
 
 
 3. **📝 Document Findings**
