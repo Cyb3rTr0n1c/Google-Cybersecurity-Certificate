@@ -26,7 +26,7 @@ Follow these steps to investigate the `signin.office365x24.com` domain and answe
 2. **🔍 Explore Domain Details**
    - Click on `signin.office365x24.com` under DOMAINS to view details such as VirusTotal information and WHOIS data.
    - Click on RESOLVED IPS to explore related IP addresses like `40.100.174.34`.
-   ![Step 2.1](2.1png)
+   ![Step 2.1](2.1.png)
    ![Step 2.2](2.2png)
 
 3. **🔍 Investigate TIMELINE and ASSETS**
