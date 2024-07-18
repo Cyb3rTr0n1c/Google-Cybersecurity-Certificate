@@ -23,12 +23,15 @@ Steps followed to analyze and assess security issues using Splunk:
 
 2. **📊 Search and Explore Data**
    - Perform an initial search (`index=main`) to confirm data ingestion and indexing.
+   ![Step 2](1.png)
 
 3. **🔍 Narrow Search to Mail Server Events**
    - Filter events from Buttercup Games' mail server (`index=main host=mailsv`).
+   ![Step 3](2.png)
 
 4. **🔒 Investigate Failed SSH Logins**
    - Refine search to identify failed SSH logins for the root account (`index=main host=mailsv fail* root`).
+   ![Step 4](3.png)
 
 5. **📝 Document Findings**
    - Record details of identified events in the incident handler's journal for further analysis.
